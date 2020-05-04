@@ -1,0 +1,23 @@
+#triangle-graph {
+  width: 640px;
+  height: 480px;
+}
+
+/* .bar {
+  fill-opacity: 0;
+  stroke: #000;
+} */
+
+.triangle {
+  fill: url(#triangle-gradient);
+  /* stroke: #000; */
+  fill-rule: evenodd;
+}
+
+.triangle-stop-left {
+  stop-color: #33ffff;
+}
+
+.triangle-stop-right {
+  stop-color: #7755ff;
+}
